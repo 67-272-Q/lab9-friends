@@ -17,7 +17,7 @@
 
 - - -
 # <span class="mega-icon mega-icon-issue-opened"></span> Stop
-Show a TA that you have the Rails app set up and working as instructed and that the code is properly saved to git. Make sure the TA initials your sheet.
+Show a TA that you have the Rails app set up and working as instructed and that the code is properly saved to git. 
 - - -
 
 3. In this next step we are going to add a mailer so that our project can send an email every time we add a new friend to our list or delete one.  Switch to a new git branch before going further.  The first step is to set up an initializer with our SMTP settings.  We will use Yahoo Mail in this example, but you can use another service such as Gmail by changing the code below to <code>"smtp.gmail.com"</code> and corresponding Gmail address and password.  Within the config/initializers directory, add a new file called <code>setup_mailer.rb</code> and insert the following code:
@@ -89,7 +89,7 @@ Show a TA that you have the Rails app set up and working as instructed and that 
 
 - - -
 # <span class="mega-icon mega-icon-issue-opened"></span> Stop
-Show a TA that you have the email functionality set up and working as instructed and that the code is properly saved to git. Make sure the TA initials your sheet.
+Show a TA that you have the email functionality set up and working as instructed and that the code is properly saved to git. 
 - - -
 
 10. Now we want to be able to add a photo of our friends so that when we display their listing, a magnificent image appears.  Start by cutting a new branch in git called 'photos'.  To do the uploads we will use a gem known as [CarrierWave](https://github.com/jnicklas/carrierwave).  There are other gems that can also be used – [paperclip](https://github.com/thoughtbot/paperclip) being one of the more popular ones – but carrierwave is easier to set up (IMHO) and works with [ActiveRecord](http://api.rubyonrails.org/classes/ActiveRecord/Base.html), [DataMapper](http://datamapper.org/) and a variety of [ORMs](http://solnic.eu/2011/11/29/the-state-of-ruby-orm.html).  To get this gem installed, go to the Gemfile and type `gem 'carrierwave'` and then `bundle install` to add it to your system gems.
@@ -141,7 +141,7 @@ Show a TA that you have the email functionality set up and working as instructed
 
 - - -
 # <span class="mega-icon mega-icon-issue-opened"></span> Stop
-Show a TA that you have the completed all portions of the lab, including file upload. Make sure the TA initials your sheet.
+Show a TA that you have the completed all portions of the lab, including file upload. 
 - - -
 
 17. **(Optional, on your own)**: If you have time, now you will modify your application to store your friend's photos in the cloud using Amazon Web Services. In this lab, we've so far used your application's file system to accomplish this, but in a production environment like [Heroku](https://www.heroku.com) where we don't have this kind of access, you would need to use cloud storage.  The change is simple, as we'll be configuring our existing carrierwave code to use Amazon S3.
