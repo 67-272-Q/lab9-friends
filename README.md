@@ -1,4 +1,4 @@
-#Objectives
+# Objectives
 
 - teach students how to send email via Rails
 - teach students how to upload files to application
